@@ -19,7 +19,22 @@ from typing import Dict, List, Optional
 
 # API 설정
 BASE_URL = "http://apis.data.go.kr/1611000/undergroundsafetyinfo01"
-SERVICE_KEY = "acb77022e5fc0978a8c28518e07e93f35a23d0b44b05fbb994587960021bd667"
+
+# ============================================================================
+# 🔑 API 인증키 설정 (공공데이터포털에서 발급받은 키 입력)
+# ============================================================================
+# 방법 1: 디코딩 키 사용 (일반 인증키, 추천)
+SERVICE_KEY_DECODED = "여기에_디코딩_키_입력"
+
+# 방법 2: 인코딩 키 사용 (URL 인코딩된 키)
+SERVICE_KEY_ENCODED = "여기에_인코딩_키_입력"
+
+# 사용할 키 선택 (True=디코딩 키, False=인코딩 키)
+USE_DECODED_KEY = True
+
+# 최종 사용 키
+SERVICE_KEY = SERVICE_KEY_DECODED if USE_DECODED_KEY else SERVICE_KEY_ENCODED
+# ============================================================================
 
 # 데이터 저장 경로
 DATA_DIR = Path("data/sample")
