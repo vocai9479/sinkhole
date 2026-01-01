@@ -1,0 +1,36 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL_CODE"
+    },
+    "body": {
+      "numOfRows": 10,
+      "pageNo": 1,
+      "totalCount": 1,
+      "items": {
+        "item": {
+          "sagoNo": "20230001",
+          "siDo": "서울특별시",
+          "siGunGu": "강남구",
+          "dong": "역삼동",
+          "addr": "테헤란로 123",
+          "sagoDate": "20230315",
+          "sinkWidth": "3.5",
+          "sinkExtend": "4.2",
+          "sinkDepth": "2.1",
+          "grdKind": "편마암질",
+          "sagoDetail": "상수도관 파열로 인한 지반 유실",
+          "deathCnt": "0",
+          "injuryCnt": "2",
+          "vehicleCnt": "1",
+          "trStatus": "복구완료",
+          "trMethod": "되메움 및 포장",
+          "trFnDate": "20230320",
+          "daStDate": "20230315",
+          "no": "1"
+        }
+      }
+    }
+  }
+}
