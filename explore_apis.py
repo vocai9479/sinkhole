@@ -294,9 +294,9 @@ def explore_api9_emergency_measures(eval_no: str) -> Optional[Dict]:
         'numOfRows': 10
     }
 
-    # API-9는 API-8과 동일한 endpoint 사용 (문서 확인 필요)
+    # API-9는 getSubsidenceExpediency01 사용 (API-8과 다름!)
     result = api_request(
-        'getSubsidenceResult01',
+        'getSubsidenceExpediency01',
         params,
         f"응급조치 내용 (평가번호: {eval_no})"
     )
