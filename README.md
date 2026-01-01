@@ -50,16 +50,14 @@ sinkhole/
 
 ```python
 # 🔑 API 인증키 설정
-SERVICE_KEY_DECODED = "여기에_디코딩_키_입력"  # 일반 인증키 (추천)
-SERVICE_KEY_ENCODED = "여기에_인코딩_키_입력"  # URL 인코딩된 키
-USE_DECODED_KEY = True  # 디코딩 키 사용 (True 권장)
+SERVICE_KEY = "여기에_일반_인증키_입력"
 ```
 
 **어디서 키를 확인하나요?**
 1. https://www.data.go.kr 로그인
 2. 마이페이지 → 오픈API → 활용신청 현황
 3. "지반침하위험도평가" 서비스 찾기
-4. 인증키(디코딩), 인증키(인코딩) 복사
+4. 일반 인증키 복사 → 붙여넣기
 
 ### 1. API 샘플링
 
