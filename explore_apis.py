@@ -18,8 +18,16 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 # API 설정
-BASE_URL = "http://apis.data.go.kr/1611000/undergroundsafetyinfo01"
-SERVICE_KEY = "acb77022e5fc0978a8c28518e07e93f35a23d0b44b05fbb994587960021bd667"
+BASE_URL = "https://apis.data.go.kr/1613000/undergroundsafetyinfo01"
+
+# ============================================================================
+# 🔑 API 인증키 설정 (공공데이터포털에서 발급받은 키 입력)
+# ============================================================================
+# 통합 일반 인증키 (최근 공공데이터포털 방식)
+SERVICE_KEY = "68a85e06ae9d0b59a663bf0952252ef0ed9c001ccde331df02f38d78ee6197e4"
+
+# 참고: 공공데이터포털 마이페이지 → 오픈API → 활용신청 현황에서 확인
+# ============================================================================
 
 # 데이터 저장 경로
 DATA_DIR = Path("data/sample")
@@ -294,9 +302,9 @@ def explore_api9_emergency_measures(eval_no: str) -> Optional[Dict]:
         'numOfRows': 10
     }
 
-    # API-9는 API-8과 동일한 endpoint 사용 (문서 확인 필요)
+    # API-9는 getSubsidenceExpediency01 사용 (API-8과 다름!)
     result = api_request(
-        'getSubsidenceResult01',
+        'getSubsidenceExpediency01',
         params,
         f"응급조치 내용 (평가번호: {eval_no})"
     )
