@@ -1,0 +1,26 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL_CODE"
+    },
+    "body": {
+      "numOfRows": 10,
+      "pageNo": 1,
+      "totalCount": 1,
+      "items": {
+        "item": {
+          "orderSeq": "1",
+          "orderDate": "20230315",
+          "orderReason": "즉시 위험 대응 필요",
+          "actDetail": "긴급 안전펜스 설치 및 통행제한",
+          "actMethod": "임시 보강 및 안전조치",
+          "actLimitYmd": "20230316",
+          "actResult": "응급조치 완료",
+          "notiDate": "20230316",
+          "no": "1"
+        }
+      }
+    }
+  }
+}

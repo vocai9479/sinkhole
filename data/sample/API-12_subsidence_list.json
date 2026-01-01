@@ -1,0 +1,97 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL_CODE"
+    },
+    "body": {
+      "numOfRows": 10,
+      "pageNo": 1,
+      "totalCount": 156,
+      "items": {
+        "item": [
+          {
+            "sagoNo": "20230001",
+            "siDo": "서울특별시",
+            "siGunGu": "강남구",
+            "sagoDetail": "상수도관 파열",
+            "sagoDate": "20230315",
+            "no": "1"
+          },
+          {
+            "sagoNo": "20230002",
+            "siDo": "서울특별시",
+            "siGunGu": "서초구",
+            "sagoDetail": "하수관 노후",
+            "sagoDate": "20230425",
+            "no": "2"
+          },
+          {
+            "sagoNo": "20230003",
+            "siDo": "서울특별시",
+            "siGunGu": "송파구",
+            "sagoDetail": "지하철 공사",
+            "sagoDate": "20230510",
+            "no": "3"
+          },
+          {
+            "sagoNo": "20230004",
+            "siDo": "서울특별시",
+            "siGunGu": "강남구",
+            "sagoDetail": "빌딩 건축공사",
+            "sagoDate": "20230622",
+            "no": "4"
+          },
+          {
+            "sagoNo": "20230005",
+            "siDo": "서울특별시",
+            "siGunGu": "중구",
+            "sagoDetail": "",
+            "sagoDate": "20230715",
+            "no": "5"
+          },
+          {
+            "sagoNo": "20230006",
+            "siDo": "서울특별시",
+            "siGunGu": "용산구",
+            "sagoDetail": "상수도관 파열",
+            "sagoDate": "20230808",
+            "no": "6"
+          },
+          {
+            "sagoNo": "20230007",
+            "siDo": "서울특별시",
+            "siGunGu": "영등포구",
+            "sagoDetail": "지하 굴착공사",
+            "sagoDate": "20230920",
+            "no": "7"
+          },
+          {
+            "sagoNo": "20230008",
+            "siDo": "서울특별시",
+            "siGunGu": "강동구",
+            "sagoDetail": "하수관 노후",
+            "sagoDate": "20231012",
+            "no": "8"
+          },
+          {
+            "sagoNo": "20230009",
+            "siDo": "서울특별시",
+            "siGunGu": "관악구",
+            "sagoDetail": "상수도관 파열",
+            "sagoDate": "20231115",
+            "no": "9"
+          },
+          {
+            "sagoNo": "20230010",
+            "siDo": "서울특별시",
+            "siGunGu": "성북구",
+            "sagoDetail": "원인 조사 중",
+            "sagoDate": "20231220",
+            "no": "10"
+          }
+        ]
+      }
+    }
+  }
+}

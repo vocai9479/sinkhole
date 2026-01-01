@@ -1,0 +1,50 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL_CODE"
+    },
+    "body": {
+      "numOfRows": 10,
+      "pageNo": 1,
+      "totalCount": 3,
+      "items": {
+        "item": [
+          {
+            "orderSeq": "1",
+            "orderDate": "20230316",
+            "orderReason": "지반 안정성 저하로 인한 안전조치 필요",
+            "actDetail": "지반 보강 및 모니터링 실시",
+            "actMethod": "그라우팅 공법 적용",
+            "actLimitYmd": "20230415",
+            "actResult": "안전조치 완료",
+            "notiDate": "20230420",
+            "no": "1"
+          },
+          {
+            "orderSeq": "2",
+            "orderDate": "20230318",
+            "orderReason": "추가 침하 위험 예방",
+            "actDetail": "주변 지반 조사 및 보강",
+            "actMethod": "강관 다짐 및 주입공법",
+            "actLimitYmd": "20230430",
+            "actResult": "진행중",
+            "notiDate": "20230320",
+            "no": "2"
+          },
+          {
+            "orderSeq": "3",
+            "orderDate": "20230320",
+            "orderReason": "상수도관 보수 필요",
+            "actDetail": "노후 배관 교체",
+            "actMethod": "비굴착 공법",
+            "actLimitYmd": "20230505",
+            "actResult": "계획중",
+            "notiDate": "20230322",
+            "no": "3"
+          }
+        ]
+      }
+    }
+  }
+}
